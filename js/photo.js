@@ -6,7 +6,7 @@ var $thumbs = $('.thumb');
 
 function crossfade($img) {
     if($current){
-        $current.stop().fadeOunt('slow');
+        $current.stop().fadeOut('slow');
     }
 
     $img.css({
